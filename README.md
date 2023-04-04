@@ -1,4 +1,4 @@
-# hello.hello.toshiki.dev
+# hello.toshiki.dev
 
 A boring personal website inspired by the [Vitesse Theme](https://github.com/antfu/vscode-theme-vitesse) made using [Astro](https://astro.build) and a sprinkle of [React](https://reactjs.org).
 
