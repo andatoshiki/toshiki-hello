@@ -1,0 +1,6 @@
+# be nice robot!!
+
+User-agent: *
+Disallow:
+
+Sitemap: https://www.hello.toshiki.dev/sitemap-index.xml

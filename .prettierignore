@@ -1,0 +1,11 @@
+# astro build dist folder
+build
+# build coverage for test
+coverage
+# astro generation folder
+astro
+# build and temp cache folder
+cache
+tmp
+.cache
+.tmp

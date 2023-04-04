@@ -1,0 +1,65 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={`${SITE_TITLE} home`} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header title={SITE_TITLE} />
+    <main class="text-lg text-neutral-200">
+      <h1 id="-developers-">👋 ようこそ、Developers!</h1>
+      <br />
+      <blockquote>
+          <p>
+              Hey there, I&#39;m Anda Toshiki, or you could refer me as <em>kiki</em> in short (the same name as the protagonist Majo from <a href="https://en.wikipedia.org/wiki/Kiki%27s_Delivery_Service">Kiki&#39;s Delivery Service</a> by Hayao Miyazaki); I&#39;m the Maho ShouJo (魔法少女) whom watches anime, drinks monster, writes codes, documents tutorials, takes photos, eats burgers and stays up all nights~
+          </p>
+      </blockquote>
+      <br />
+      <p>
+          Introduction once more, my name is Anda Toshiki, pronounced as <code>AHN-dah TOH-shee-kee</code> in case you find my name obscure to read out. I&#39;m currently a precollege student with offer of admission from <a href="https://www.buffalo.edu">UB (University at Buffalo)</a> as a transfer student to <a href="https://www.caltech.edu">(CIT) California Institute of Technology</a>. I am also the founder of <a href="https://github.com/toshikidev">Toshiki Dev</a> as the first <em>organizational</em> community I have ever created for building functional utility components and webapps/software to my own needs as serving solutions to people having the same requests, additionally I am maintaining the community with both of my cat 😺 (玉ちゃん &amp; 桃ちゃん both of them are <a href="https://www.youtube.com/shorts/FT9FOI-yJP4">cute girls</a>!)
+      </p>
+      <ul>
+          <li>
+              <p><strong>🤷‍♀️ Pronouns</strong>: <strong>She/her</strong> (internet wide, I&#39;m a loli :P); <strong>he/him</strong> if you happens to meet me offline, <strong>they/them</strong> additionally.</p>
+          </li>
+          <li>
+              <p><strong>👌 Languages</strong>: I was raised in a trilingual family since born thus I speak three languages, <strong>English</strong> primarily, proficient in <strong>Chinese</strong> and fluent in <strong>Japanese</strong>, all three languages are welcomed to use when having conversations with me, I also don&#39;t mind blending all three languages together as a way to improve my long-lost Japanese language grammar!</p>
+              <p>I&#39;m presently learning Spanish as one of the second-most widely spoken language in the world to fit the demands of writing <em>espanol</em> oriented documentation for better i18n experiences on my projects.</p>
+          </li>
+          <li>
+              <p><strong>🎓 Academics</strong>: I current studying Data Science and Physics as core essentials for my academia. Frontend developing and Computer Networking are both my hobbies at rest while I mostly work with numbers and maths mainly. I am also obsessed with <em>process automation</em>, <em>CI/CD</em>, I am highly active on building practical GitHub actions for easing my DevOps life.</p>
+          </li>
+          <li>
+              <p><strong>👩‍💻 Frontend development &amp; blogging</strong>: Aside from academic learnings, I am also captivated into frontend development and blogging, more specifically theming and beautification. I was introduced to <a href="https://github.com/gohugoio/hugo">HUGO</a> when I first get started with website generator/blog building, I contributes one of the best hugo theme communities-<a href="https://github.com/hugo-fixit/FixIt">Fixit</a> on GitHub. I have also independently created other themes such as gallery and showcasing sites (see more in the projects table below)...</p>
+          </li>
+          <li>
+              <p><strong>📃 Documenting</strong>: I have a strong eagerness on finding the best solution for issues I encounters and devote to understand hard concepts; in order to respond to this fetish, I enjoys documenting notes and epiphanies in detailed and specific no matter how much time it waste, it deserves my dedication (see my notes <a href="https://note.hello.toshiki.dev">in action</a>).</p>
+          </li>
+          <li>
+              <p><strong>🎨 Art</strong>: I engage in pixel art and indie game developments when free, I practice techniques and share my artworks on <a href="https://discord.gg/pixelart">Discord Pixel Art</a> community.</p>
+          </li>
+          <li>
+              <p><strong>🎭 Anime</strong>: I am a heavy <em>weeb</em> whom watches anime a lot at my leisure, my favorite anime so far is, <a href="https://danmachi.fandom.com/wiki/DanMachi_Wiki">&quot;DanMachi&quot; (ダンジョンに出会いを求めるのは間違っているだろうか)</a>.</p>
+          </li>
+          <li>
+              <p><strong>💾 Collectomania</strong>: I love collecting resources from different field, from photography sets to reference books to torrents to movies et cetera. (But I usually read through any of them instead just let them sit in my hard drives).</p>
+          </li>
+          <li>
+              <p><strong>📸 Photography &amp; photo editing</strong>: I have intermediate experience with photography editing with both PhotoShop and Illustrator and have been using both tools on daily bases to commit minor edits on photos to level of perfections; I am also interested in photography, I records everything aesthetic in life with cameras and showcase them at my <a href="https://gallery.hello.toshiki.dev">web gallery</a>.</p>
+          </li>
+      </ul>
+      <p>In order to prove my real identity as a human being, I have verified my identity with a GPG public key hosted on <a href="https://keybase.io/toshikidev">Keybase - Anda Toshiki (@toshikidev)</a> with <a href="https://keybase.io/toshikidev/sigchain#7a41ec772fd948db46e454c55efc71005299fe7b3ed76b789bbcdb5a7505667c0f">ownership of domain <code>www.hello.toshiki.dev</code></a> via https; which validates I am legitimately a <strong>cute, living human loli</strong> on Earth, you can pull and import my GPG public keys onto your local machine with the following command using cURL.</p>
+<pre>
+<code class="lang-sh">curl https:<span class="hljs-regexp">//</span>keybase.io<span class="hljs-regexp">/toshikidev/</span>pgp_keys.asc | gpg --import</code>
+</pre>
+    </main>
+    <Footer />
+  </body>
+</html>
